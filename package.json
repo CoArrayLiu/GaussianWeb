@@ -8,14 +8,20 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.9.8",
     "@mkkellogg/gaussian-splats-3d": "^0.4.5",
     "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "ffmpeg": "^0.0.4",
+    "multer": "^1.4.5-lts.1",
     "three": "^0.171.0",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@ffmpeg/core": "^0.10.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
